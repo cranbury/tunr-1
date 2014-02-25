@@ -37,6 +37,8 @@ gem 'bcrypt-ruby', '~> 3.1.2'
 
 gem 'httparty'
 
+
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -51,5 +53,6 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'launchy'
+  gem 'factory_girl_rails'
 end
 
